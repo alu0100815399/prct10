@@ -1,0 +1,79 @@
+\documentclass[spanish,a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{latexsym,amsfonts,amssymb,amstext,amsthm,float,amsmath}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{doc}
+\usepackage{graphicx}
+
+\begin{document}
+\title{El número $\pi$}
+\author{Claudia Ballester Niebla}
+\date{9 de Abril de 2014}
+
+\maketitle
+
+\begin{abstract}
+\includegraphics[scale=0.15]{imagen1.eps} 
+Una mirada superficial a la historia del pensamiento humano revela que determinados asuntos han merecido la atención de los pensadores, filósofos e intelectuales desde el nacimiento de la humanidad hasta nuestros días. En general se trata de cuestiones que no han recibido una respuesta satisfactoria a gusto de todos. Sirvan como ejemplo las preguntas ¿quienes somos?, ¿de dónde venimos? y ¿a dónde vamos? Si esta realidad es descorazonadora, podemos consolarnos volviendo nuestra mirada hacia otros problemas que, si bien de naturaleza distinta, han ocupado mentes sapientísimas durante siglos y han sido completamente resueltos.
+
+Uno de esos problemas es el de la cuadratura del círculo. Consiste en construir un cuadrado con un area igual a la de un  círculo dado. Junto con la duplicación del cubo y la trisección del ángulo, es uno de los tres problemas clásicos planteados por los matemáticos de la Grecia antigua. Es importante comprender que el término construir debe entenderse en el sentido de
+construir usando exclusivamente regla y compás. Aunque hoy nos pueda parecer un poco
+extraña esa insistencia en el uso exclusivo de la regla y del compás, debe tenerse en cuenta
+que para los griegos los números eran razones entre magnitudes que se representaban
+mediante segmentos, áreas o volúmenes. La historia de la cuadratura del círculo como pro-
+blema científico se extiende en su totalidad ante nosotros. Podemos rastrear sus orígenes en
+la antiguedad y seguir el desarrollo de los métodos e ideas para resolverlo hasta llegar por fín
+a su completa solución. Podemos ver también como el progreso hacia la solución se ha visto
+afectado por la labor de algunos de los más grandes matemáticos que ha dado la humanidad,
+como Arquímedes, Huyghens, Euler y Hermite entre otros.
+
+No solo los científicos muestran interés por estas cuestiones. La Poetisa Wislawa Szymborska,
+Premio Nobel de literatura de 1996, escribió un poema titulado
+El número pi, que puede leerse en el diario El País del 4 de octubre de 1996.
+\end{abstract}
+
+\section{Definición de $\pi$}
+El número pi se define como la razón de la longitud de la circunferencia al diámetro.
+Esta definición plantea dos preguntas:
+
+1. ¿Como se define la longitud de una línea curva?
+
+2. ¿Como sabemos que esa razón es la misma para todas las posibles circunferencias?
+
+Todos tenemos una idea intuitiva de lo que es la longitud de una línea, pero dar una definición matemática precisa es un problema distinto. La identificación del conjunto de los números reales con la recta real nos permite definir la longitud de un segmento rectilíneo. Para una línea curva, se define por aproximación mediante líneas quebradas inscritas. Este proceso puede llevarse a cabo para las llamadas curvas rectificables, de las que la circunferencia es un ejemplo. De hecho en este caso, lo usual es definir su longitud como el límite del perímetro de polígonos regulares inscritos o circunscritos cuando el numero de sus lados tiende a infinito.
+
+Esta definición nos dá también la respuesta a la segunda pregunta. Por el teorema de Tales, si en un triángulo duplicamos dos de los lados y unimos los extremos de los lados duplicados, resulta un triángulo semejante al inicial, y el tercer lado también se ha doblado. Evidentemente lo mismo es cierto para cualquier otra razón de semejanza. Supongamos ahora que tenemos una circunferencia dada y duplicamos el radio. Por lo anterior, vemos que el perímetro de los polígonos regulares inscritos se duplica, y pasando al límite resulta que la longitud de la circunferencia se multiplica por dos.
+
+\section{$\pi$ y el Azar}
+El número pi tiene una extraña tendencia a aparecer por lugares insospechados, como en diversos problemas de probabilidad. Uno de los más conocidos es la aguja de Buffon.
+
+\subsection{La aguja de Buffon}
+n 1733, Georges Louis Leclerc, Conde de Buffon, planteó el siguiente problema: dada una aguja de longitud l y una rejilla infinita de rectas paralelas a una distancia común d, hallar la probabilidad p de que la aguja, arrojada de forma aleatoria, corte a una de las rectas.
+
+Esto permite calcular pi de manera experimental, dibujando las líneas en el suelo y arrojando una aguja un número suficientemente grande de veces.
+
+\subsection{¿Es $\pi$ normal?}
+n número real x se dice que es normal en base b si en su representación decimal en base b todos los dígitos 0, 1,...,b–1 aparecen asintóticamente el mismo número de veces. Además, para cada n, las bn combinaciones de n dígitos deben aparecer asintóticamente con la misma frecuencia. Un número que es normal en todas las bases se dice que es normal. Casi todos los números son normales, pero no se conoce explícitamente ninguno que lo sea. El número 0,123456789101112131415161718192021... es normal en base 10 (D. Champernowne)\footnote{Número de Champernowne}.
+La aparente aleatoriedad de las cifras de pi plantea la cuestión de si pi es normal o no. Lo único que podemos hacer en esta dirección es un análisis estadístico de las cifras decimales conocidas de pi. Esto fue realizado por David H. Bailey con 29.3600.000 cifras. En la siguiente tabla se ve la distribución de los dígitos del 0 al 9. La tercera columna se ha obtenido dividiendo la desviación de la media por la desviación estándar, y como cabría esperar de una sucesión aleatoria de dígitos, está distribuida normalmente con media cero y varianza 1.
+
+\begin{tabular}{lrc}
+Dígito & Frecuencia & Z-score\\
+\hline
+0 & 2.935.072 & -0,4709\\
+1 & 2.936.516 & 0,3714\\
+2 & 2.936.843 & 0,5186\\
+3 & 2.935.205 & -0,4891\\
+4 & 2.938.787 & 1,7145\\
+5 & 2.936.197 & 0,1212\\
+6 & 2.935.504 & -0,3051\\
+7 & 2.934.083 & -0,1793\\
+8 & 2.935.698 & -0,1858\\
+9 & 2.936.095 & -0,0584\\
+\end{tabular}
+
+Lo mismo sucede con las 100 posibles combinaciones de dos dígitos (del 00 al 99), las mil de ejemplo a partir de la cifra un trillón. De hecho, no sabemos si en el desarrollo decimal de pi  parecen los dígitos del O al 9 infinitas veces. La sucesión de dígitos de pi pasa todos los tests de aleatoriedad. Por ejemplo, si contamos el número de veces que cada uno de los dígitos aparece de una tacada n veces seguidas, se tiene el siguiente resultado:
+
+\end{document}
